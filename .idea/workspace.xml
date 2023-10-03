@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df38bce3-e858-48f5-90ea-bf3cdc1738e8" name="Changes" comment="set up">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/domain/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/domain/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/security/config/SecurityConfig.class" beforeDir="false" />
-    </list>
+    <list default="true" id="df38bce3-e858-48f5-90ea-bf3cdc1738e8" name="Changes" comment="set up user and user details" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,7 +48,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/tiago/Desktop/Spring_Simple_Security"
+    "last_opened_file_path": "C:/Users/tiago/Desktop/Spring_Simple_Security",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -100,11 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696369669851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="set up user and user details">
+      <option name="closed" value="true" />
+      <created>1696371974263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696371974263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up" />
+    <MESSAGE value="set up user and user details" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up user and user details" />
   </component>
 </project>
