@@ -2,8 +2,10 @@ package com.demo.security.controller;
 
 import com.demo.security.domain.Users;
 import com.demo.security.dto.AuthorizationDto;
+import com.demo.security.dto.LoginResponseDto;
 import com.demo.security.dto.RegisterDto;
 import com.demo.security.repositories.UserRepository;
+import com.demo.security.services.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -23,10 +25,13 @@ public class AuthenticationController {
 
     private final UserRepository userRepository;
 
+    private final TokenService tokenService;
+
     @Autowired
-    public AuthenticationController(AuthenticationManager authenticationManager, UserRepository userRepository) {
+    public AuthenticationController(AuthenticationManager authenticationManager, UserRepository userRepository, TokenService tokenService) {
         this.authenticationManager = authenticationManager;
         this.userRepository = userRepository;
+        this.tokenService = tokenService;
     }
 
     @PostMapping("/login")
@@ -35,7 +40,9 @@ public class AuthenticationController {
         var usernamePassword = new UsernamePasswordAuthenticationToken(data.login(), data.password());
         var auth = this.authenticationManager.authenticate(usernamePassword);
 
-        return ResponseEntity.ok().build();
+        var token = this.tokenService.generateToken((Users) auth.getPrincipal());
+
+        return ResponseEntity.ok(new LoginResponseDto(token));
     }
 
     @PostMapping("/register")

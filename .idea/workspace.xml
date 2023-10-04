@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df38bce3-e858-48f5-90ea-bf3cdc1738e8" name="Changes" comment="set up security and product">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/dto/AuthorizationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/dto/RegisterDto.java" afterDir="false" />
+    <list default="true" id="df38bce3-e858-48f5-90ea-bf3cdc1738e8" name="Changes" comment="set up register">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/dto/LoginResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/services/SecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/services/TokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/domain/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/domain/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/security/SecurityApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/security/config/SwaggerConfig.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696458562512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="set up register">
+      <option name="closed" value="true" />
+      <created>1696459755562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696459755562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +148,7 @@
     <MESSAGE value="set up user and user details" />
     <MESSAGE value="fux small bug" />
     <MESSAGE value="set up security and product" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up security and product" />
+    <MESSAGE value="set up register" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up register" />
   </component>
 </project>
