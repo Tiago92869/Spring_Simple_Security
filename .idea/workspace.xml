@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df38bce3-e858-48f5-90ea-bf3cdc1738e8" name="Changes" comment="set up register">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/dto/LoginResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/services/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/services/TokenService.java" afterDir="false" />
+    <list default="true" id="df38bce3-e858-48f5-90ea-bf3cdc1738e8" name="Changes" comment="set up jwt token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/security/SecurityApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/security/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/security/config/SwaggerConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696459755562</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="set up jwt token">
+      <option name="closed" value="true" />
+      <created>1696461380134</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696461380134</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +149,7 @@
     <MESSAGE value="fux small bug" />
     <MESSAGE value="set up security and product" />
     <MESSAGE value="set up register" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up register" />
+    <MESSAGE value="set up jwt token" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up jwt token" />
   </component>
 </project>
