@@ -18,3 +18,8 @@ springdoc:
   swagger-ui:
     path: /swagger-ui.html
     enable: true
+
+api:
+  security:
+    token:
+      secret: my-secret-key
