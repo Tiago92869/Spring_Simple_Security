@@ -26,6 +26,12 @@ public class Users implements UserDetails { //we implement UserDetails to say th
     private String password;
     private UserRole role;
 
+    public Users(String login, String password, UserRole role) {
+        this.login = login;
+        this.password = password;
+        this.role = role;
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         if(this.role == UserRole.ADMIN)
