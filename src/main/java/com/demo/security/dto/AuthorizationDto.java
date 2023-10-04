@@ -2,5 +2,5 @@ package com.demo.security.dto;
 
 import com.demo.security.domain.UserRole;
 
-public record AuthorizationDto(String login, UserRole password){
+public record AuthorizationDto(String login, String password){
 }
